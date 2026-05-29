@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #c0392b;
+  --color-brand-secondary: #a93226;
+  --color-brand-bg: #f8f5f0;
+  --color-[#f8f5f0]: #f8f5f0;
+  --color-[#2c3e50]: #2c3e50;
+  --color-brand-bg-light: #fcfaf7;
+  --color-brand-dark: #2c3e50;
+  --font-serif: "Lora", Georgia, serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-mono: "Fira Code", monospace;
+}
+
+body {
+  background-color: #f8f5f0;
+  color: #2c3e50;
+  font-family: "Outfit", system-ui, sans-serif;
+}
+
+/* Custom scrollbar matching our classical aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ebd9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c0392b45;
+  border-radius: 4px;
+  border: 2px solid #f1ebd9;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c0392bb0;
+}

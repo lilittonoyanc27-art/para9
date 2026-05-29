@@ -1,0 +1,6 @@
+{
+  "name": "Իսպաներենի Անցյալ Ժամանակներ",
+  "description": "Իսպաներեն անցյալ ժամանակների և անկանոն ձևերի ուսուցողական խաղ-մրցույթ Գոռի և Գայանեի համար",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
